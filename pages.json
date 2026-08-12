@@ -1,0 +1,79 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "MusicShellUni"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索音乐"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/local/local",
+			"style": {
+				"navigationBarTitleText": "本地音乐"
+			}
+		},
+		{
+			"path": "pages/source/source",
+			"style": {
+				"navigationBarTitleText": "音源管理"
+			}
+		},
+		{
+			"path": "pages/downloads/downloads",
+			"style": {
+				"navigationBarTitleText": "下载管理"
+			}
+		},
+		{
+			"path": "pages/player/player",
+			"style": {
+				"navigationBarTitleText": "播放详情"
+			}
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "MusicShellUni",
+		"navigationBarBackgroundColor": "#0b0d10",
+		"backgroundColor": "#0b0d10"
+	},
+	"tabBar": {
+		"color": "#a7adb8",
+		"selectedColor": "#1db954",
+		"backgroundColor": "#121212",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"text": "搜索"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

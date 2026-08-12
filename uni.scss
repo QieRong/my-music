@@ -1,0 +1,111 @@
+/**
+ * MusicShellUni theme tokens.
+ * Phase 1 keeps the app lightweight: no UI framework and no icon library.
+ */
+
+/* Spotify-like dark music player colors */
+$music-bg: #121212;
+$music-page-bg: #0b0d10;
+$music-card-bg: #181818;
+$music-card-active: #202124;
+$music-primary: #1db954;
+$music-primary-active: #1ed760;
+$music-text: #f5f7fa;
+$music-text-muted: #a7adb8;
+$music-text-soft: #6f7785;
+$music-border: #2a2d33;
+
+/* uni-app common variables */
+$uni-color-primary: $music-primary;
+$uni-color-success: $music-primary-active;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+$uni-text-color: $music-text;
+$uni-text-color-inverse: #08110b;
+$uni-text-color-grey: $music-text-muted;
+$uni-text-color-placeholder: $music-text-soft;
+$uni-text-color-disable: #505766;
+
+$uni-bg-color: $music-page-bg;
+$uni-bg-color-grey: $music-card-bg;
+$uni-bg-color-hover: $music-card-active;
+$uni-bg-color-mask: rgba(0, 0, 0, 0.72);
+
+$uni-border-color: $music-border;
+
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16px;
+
+$uni-img-size-sm: 20px;
+$uni-img-size-base: 26px;
+$uni-img-size-lg: 40px;
+
+$uni-border-radius-sm: 4px;
+$uni-border-radius-base: 6px;
+$uni-border-radius-lg: 8px;
+$uni-border-radius-circle: 50%;
+
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+$uni-opacity-disabled: 0.45;
+
+$uni-color-title: $music-text;
+$uni-font-size-title: 20px;
+$uni-color-subtitle: $music-text-muted;
+$uni-font-size-subtitle: 18px;
+$uni-color-paragraph: $music-text-muted;
+$uni-font-size-paragraph: 15px;
+
+page,
+body {
+  background: $music-page-bg;
+  color: $music-text;
+  min-height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+page::-webkit-scrollbar,
+body::-webkit-scrollbar,
+html::-webkit-scrollbar,
+.uni-scroll-view::-webkit-scrollbar {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+view,
+text,
+button {
+  box-sizing: border-box;
+}
+
+button {
+  border: 0;
+  margin-left: 0;
+  margin-right: 0;
+  transition: opacity 120ms ease, transform 120ms ease, background-color 120ms ease;
+}
+
+button:active {
+  opacity: 0.82;
+  transform: scale(0.98);
+}
+
+button[disabled],
+button[disabled]:active {
+  opacity: 1;
+  transform: none;
+}
+
+button::after {
+  border: 0;
+}

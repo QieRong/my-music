@@ -1,0 +1,34 @@
+node_modules/
+unpackage/
+.hbuilderx/
+# H5 preview cache only; this does not mean the project adds Vite config.
+.vite/
+unpackage/*.log
+unpackage/cdp-probe-*/
+unpackage/phase2-edge-profile-*/
+unpackage/phase2-h5-screens/
+unpackage/phase2-h5-files/
+.DS_Store
+
+# Local secrets: never publish credentials, signing files, or personal settings.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+
+# Local IDE, agent, browser-automation, cache, and temporary artifacts.
+.agents/
+.codex/
+.playwright-cli/
+.tmp/
+.tmp-ui-refs/
+
+# Internal reference material and validation artifacts are not part of a source release.
+img/
+static/
+docs/
