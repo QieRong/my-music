@@ -57,7 +57,7 @@
       </view>
 
       <view class="phase-card">
-        <text class="phase-label">Phase 2</text>
+        <text class="phase-label">{{ t('home.phaseLabel') }}</text>
         <text class="phase-title">{{ t('home.phaseTitle') }}</text>
         <text class="phase-copy">{{ t('home.phaseDesc') }}</text>
       </view>

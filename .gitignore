@@ -24,6 +24,7 @@ unpackage/phase2-h5-files/
 # Local IDE, agent, browser-automation, cache, and temporary artifacts.
 .agents/
 .codex/
+AGENTS.md
 .playwright-cli/
 .tmp/
 .tmp-ui-refs/
