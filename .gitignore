@@ -28,6 +28,9 @@ unpackage/phase2-h5-files/
 .tmp/
 .tmp-ui-refs/
 
+# Local diagnostics can contain machine or credential-helper details.
+gcm-diagnose.log
+
 # Internal reference material and validation artifacts are not part of a source release.
 img/
 static/
